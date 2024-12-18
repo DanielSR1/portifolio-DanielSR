@@ -1,0 +1,19 @@
+.texto{
+    font-weight: bold;
+}
+/* Estilo de hover para os cards */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover .card-img-top {
+    opacity: 0.85;
+}
+
+.card:hover .btn {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
