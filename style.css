@@ -1,6 +1,7 @@
 .texto{
     font-weight: bold;
 }
+
 /* Estilo de hover para os cards */
 .card:hover {
     transform: scale(1.05);
@@ -16,4 +17,29 @@
     background-color: #000;
     color: #fff;
     border-color: #000;
+}
+
+/* Estilos para o formulário de contato */
+.contact .form-control {
+    border-radius: 0;
+    border: 1px solid #848282;
+}
+
+.contact .form-control:focus {
+    box-shadow: none;
+    border-color: #000;
+}
+
+.contact textarea {
+    resize: none;
+}
+
+.contact .btn {
+    border-radius: 0;
+    padding: 10px 30px;
+    transition: all 0.3s ease;
+}
+
+.contact .btn:hover {
+    transform: translateY(-2px);
 }
